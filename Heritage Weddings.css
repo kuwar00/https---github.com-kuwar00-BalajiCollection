@@ -187,11 +187,11 @@ body > footer > div > div{
     display: flex;
 }
 
-body > footer > div > div > div:nth-child(1) > ul{
+ body > footer > div > div > div:nth-child(1) > ul{
 
     list-style: none;
     }
-body > footer > div > div > div:nth-child(2) > ul{
+ body > footer > div > div > div:nth-child(2) > ul{
 
     list-style: none;
     }
@@ -258,6 +258,16 @@ body > footer > div > div{
     color: #ffffff;
     transition: all 0.5s ease;
 }
+body > footer > div > div > div:nth-child(1) > ul {
+    padding: 0px ;
+}
+body > footer > div > div > div:nth-child(2) > ul {
+    padding: 0px ;
+}
+body > footer > div > div > div:nth-child(3) > ul {
+    padding: 0px ;
+}
+
 
 .wpFooter-col .socialLinksWp a:hover{
     color: #24262b;
