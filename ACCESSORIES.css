@@ -1,0 +1,389 @@
+body{
+    background-color: #f5f5dc70;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  
+  font-family: 'poppins','sans-serif';
+}
+/* navbar*/
+.heroM1{
+
+    width: 100vh;
+    height: 100vh;
+    
+    right: 58%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 10%;
+}
+
+#navbar > ul{
+    position: relative;
+    right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+}
+nav ul li a:hover{
+    border: 12px solid white  ;
+    border-radius: 5px;
+    color: #111111;
+    background-color: #fff;
+    height: 10px;
+    
+    
+}
+/* #navbar:hover{
+    background-color: #8a2c2c;
+} */
+.content{
+    text-align: center;
+    margin: 22px 0px;
+}
+.content h2{
+font-size: 50px;
+color: #0a0a0a;
+background-color: white;
+display: inline;
+margin: 30px;
+font-style: italic;
+}
+
+#cointainer-2 img {
+    position: absolute;
+    height: 100vh;
+    width: 106%;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* .btn{
+    position: absolute;
+    top: 65%;
+    justify-content: center;
+    text-align: center;
+} */
+/* #heroMContainer1 > div > img {
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    top: 16rem;
+    left: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+} */
+
+#heroMContainer1 > div > div.img2 > img{
+    height: 100%;
+    width:113rem ;
+    left: 46px;
+    position: absolute;
+    top: 16rem;
+    z-index: -1;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    z-index: 1;
+
+}
+.men-contant{
+    font-size: 58pt;
+    color: #030303;
+    font-style: italic;
+    display: flex;
+   
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    justify-items: center;
+    left: 38rem;
+    justify-content: center;
+    bottom: 14rem;
+    flex-direction: row;
+}
+.men-contantmp{
+    font-size: 50px;
+    color: #f5f2f2;
+    /* background-color: yellow; */
+    display: flex;
+    margin: 30px;
+   
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    left: 40%;
+    top: 105rem;
+}
+    
+/* #heroMContainer1 > div > div.img3 > img {
+    position: absolute;
+    left: 68rem;
+    top: 40rem;
+    height: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+} */
+
+#menContainer3 > div.menBoxTr2 > h2 {
+    font-size: 50px;
+    color: #f5f2f2;
+    /* background-color: yellow; */
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    left: 40%;
+    top: 154rem;
+}
+
+#heroMContainer1 > div > h2 {
+    top: 50rem;
+    left: 43rem;
+}
+
+#heroMContainer1 > div > div > a {
+    position: absolute;
+    top: 53rem;
+    left: 54rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px;
+    background-color: yellow;
+}
+
+/* #heroMContainer1 > div > div.img4 > img {
+    height: 425px;
+    position: absolute;
+    top: 40rem;
+    left: 87rem;
+    width: 248px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+} */
+
+
+#menContainer2 > div.heroM2 > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 72rem;
+    z-index: -1;
+}
+
+.menBoxTr2 h2{
+    display: inline-block;
+    
+    position: absolute;
+}
+
+.btn-mp{
+    position: absolute;
+    top: 65%;
+    justify-content: center;
+    text-align: center;
+}
+.btn-2mp{
+    position: absolute;
+    top: 65%;
+    justify-content: center;
+    text-align: center;
+}
+.btn-3mp{
+    position: absolute;
+    top: 163%;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-mp a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f5f2f2;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px ;
+    position: absolute;
+   left: 56rem;
+    top: 26rem;
+    background-color: #00000030;
+}
+.btn-2mp a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f5f2f2;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px ;
+    position: absolute;
+    left: 56rem;
+    top: 79rem;
+    background-color: #00000030;
+}
+.btn-3mp a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f5f2f2;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px ;
+    position: absolute;
+    left: 56rem;
+    top: 79rem;
+    background-color: #00000030;
+}
+
+.heroM3 img
+    {
+        height: 84%;
+        position: absolute;
+        top: 128rem;
+        left: 11rem;
+        z-index: -1;
+        width: 80%;
+    }
+    .footerFormenPage {
+    background-color: #020202;
+    color: #fff;
+    padding: 2% 0%;
+    position: absolute;
+    width: 100%;
+    top: 175rem;
+    
+}
+.containerFormpFooter{
+    max-width: 1170px;
+   
+    margin: auto;
+
+}
+body > footer > div > div{
+    display: flex;
+}
+
+body > footer > div > div > div:nth-child(1) > ul{
+
+    list-style: none;
+    }
+body > footer > div > div > div:nth-child(2) > ul{
+
+    list-style: none;
+    }
+    body > footer > div > div > div:nth-child(3) > ul {
+
+        list-style: none;
+    }
+
+body > footer > div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mpFooter-col{
+    width: 22%;
+    padding: 0 15px;
+
+}
+
+.mpFooter-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    position: relative;
+}
+.mpFooter-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #f8f6f7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.mpFooter-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mpFooter-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff ;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.mpFooter-col ul li a:hover{
+    color: #ffffff;
+    padding-left:8px ;
+}
+.mpFooter-col .socialLinksmp a{
+    display: inline-block;
+    height: 40px;
+    width: 38px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0px 10px 10px 0px;
+    
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.mpFooter-col .socialLinksmp a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+#heroMContainer1 > div > footer > div > div{
+    display: flex;
+}

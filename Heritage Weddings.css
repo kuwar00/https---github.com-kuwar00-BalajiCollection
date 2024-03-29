@@ -1,0 +1,265 @@
+/* .hero1{
+
+    width: 100vh;
+    height: 100vh;
+    
+    right: 58%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.logo{
+    width: 10%;
+}
+
+#navbar > ul{
+    position: relative;
+    right: 10%;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+}
+nav ul li a:hover{
+    border: 12px solid white  ;
+    border-radius: 5px;
+    color: #111111;
+    background-color: #fff;
+    height: 10px;
+    
+    
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    z-index: 1;
+    right: 0rem;
+}
+#heritageWedding-container > div.heritage-classDiv > h2 {
+    position: absolute;
+    top: 38rem;
+    left: 43rem;
+    font-size: 50px;
+    color: #f5f2f2;
+    margin: 30px;
+    text-align: center;
+    /* align-items: center; */
+    display: inline;
+    justify-items: center;
+}
+#heritageWedding-container > div.heritage-classDiv > h3 {  
+    display: inline-flex;
+    position: absolute;
+    top: 38rem;
+    left: 47rem;
+    font-size: 18px;
+    color: #f5f2f2;
+    text-align: center;
+    justify-items: center;
+}
+#heritageWedding-container {
+    display: flex;
+    position: absolute;
+    top: 16rem;
+    width: 112rem;
+    height: 85vh;
+}
+#heritageWedding-container > div > img {
+    
+    width: 112rem;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    right: 7px;
+}
+#heritageWedding-container2 {
+    display: flex;
+    position: absolute;
+    top: 73rem;
+    width: 112rem;
+    justify-content: space-between;  
+}
+#heritageWedding-container2 > div:nth-child(1) > img {
+    height: 100vh;
+    width: 100vh
+}
+#heritageWedding-container2 > div:nth-child(2) > img {
+    height: 100vh;
+    width: 100vh
+}
+#heritageWedding-container3 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 130rem;
+    width: 112rem;
+}
+
+body > h1 {
+    font-size: 58pt;
+    color: #030303;
+    font-style: italic;
+    
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+
+    justify-items: center;
+    left: 38rem;
+    justify-content: center;
+    top: 6rem;
+    flex-direction: row;
+}
+.heritageGrad {
+    height: 100%;
+    width: 112rem;
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: -5px;
+    top: 123px;
+
+}
+#heritageWeddingVideo {
+    height: 100vh;
+}
+#heritageWedding-container3 > div:nth-child(2) > img {
+    height: 806px;
+}
+
+#idHeritageIcon {
+    position: relative;
+    top: 166rem;
+    left: 38rem;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 57px;
+}
+
+
+#heritageiconFormuteVideo {
+    height: 20px;
+    cursor: pointer;
+}
+
+#heritageiconForPlayVideo {
+    height: 20px;
+    cursor: pointer;
+}
+
+.footerForWomenPage {
+    background-color: #020202;
+    color: #fff;
+    padding: 2% 0%;
+    position: absolute;
+    width: 100%;
+    top: 188rem;
+    
+}
+.containerForWPFooter{
+    max-width: 1170px;
+   
+    margin: auto;
+
+}
+body > footer > div > div{
+    display: flex;
+}
+
+body > footer > div > div > div:nth-child(1) > ul{
+
+    list-style: none;
+    }
+body > footer > div > div > div:nth-child(2) > ul{
+
+    list-style: none;
+    }
+    body > footer > div > div > div:nth-child(3) > ul {
+
+        list-style: none;
+    }
+
+body > footer > div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.wpFooter-col{
+    width: 22%;
+    padding: 0 15px;
+
+}
+
+.wpFooter-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    position: relative;
+}
+.wpFooter-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #f8f6f7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.wpFooter-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.wpFooter-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff ;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.wpFooter-col ul li a:hover{
+    color: #ffffff;
+    padding-left:8px ;
+}
+.wpFooter-col .socialLinksWp a{
+    display: inline-block;
+    height: 40px;
+    width: 38px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.wpFooter-col .socialLinksWp a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}

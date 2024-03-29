@@ -1,0 +1,565 @@
+body{
+    background-color:white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  
+  font-family: 'poppins','sans-serif';
+}
+/* navbar*/
+
+.navbar{
+    margin: 10px;
+    padding: 10px;
+}
+.bar {
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero{
+
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    z-index: 1;
+
+
+
+}
+#navbar > ul{
+    position: relative;
+    right: 10%;
+}
+.logo{
+    width: 10%;
+}
+.hero h1{
+    font-size: 5rem;
+    color: #fff;
+    font-style: italic;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+}
+nav ul li a:hover{
+    border: 12px solid white  ;
+    border-radius: 5px;
+    color: #111111;
+    background-color: #fff;
+    height: 10px;
+    /* transition: all 0.5s ease-in; */
+    
+    
+}
+
+/*#navbar:hover{
+    
+}*/
+.content{
+    text-align: center;
+    margin: 22px 0px;
+}
+.content h2{
+font-size: 50px;
+color: #0a0a0a;
+background-color: white;
+display: inline;
+margin: 30px;
+font-style: italic;
+}
+.background-video{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+#cointainer-2 img {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.btn{
+    position: absolute;
+    top: 65%;
+    justify-content: center;
+    text-align: center;
+}
+#cointainer-2 > div > div {
+    position: absolute;
+    top: 61%;
+    justify-content: center;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px ;
+    background-color: #00000030;
+
+}
+#cointainer-2 > div{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.women-contant{
+    font-size: 50px;
+    color: #f5f2f2;
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.btn-2 a{
+   text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px;
+    background-color: #00000030;
+}
+#cointainer-3{
+    top: 114em;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.btn-3 a{
+    position: absolute;
+    top: 43rem;
+    left: 56rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px ;
+    background-color: #00000030;
+    
+}
+.men-contant{
+    font-size: 50px;
+    color: #f5f2f2;
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+   
+
+}
+
+#cointainer-3 > div > div {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    bottom: 63rem;
+    left: -5rem;
+    align-items: center;
+    align-content: center;
+}
+
+
+#cointainer-3 > div{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cointainer-3 img{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+}
+/* ---------footer------------ */
+.footer{
+    background-color: #020202;
+    color: #fff;
+    padding: 2% 0%;
+    position: absolute;
+    width: 100%;
+    top: 169rem;
+}
+.foot-container{
+    max-width: 1170px;
+   
+    margin: auto;
+}
+body > footer > div > div > div:nth-child(1) > ul{
+    list-style: none;
+}
+body > footer > div > div > div:nth-child(2) > ul{
+    list-style: none;
+}
+body > footer > div > div > div:nth-child(3) > ul{
+    list-style: none;
+}
+body > footer > div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #f8f6f7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff ;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left:8px ;
+}
+.footer-col .socialLinks a{
+    display: inline-block;
+    height: 40px;
+    width: 38px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .socialLinks a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+#heroContainer > div.hero > div.icon > img:nth-child(1){
+    height: 20px;
+    cursor: pointer;
+}
+ #heroContainer > div.hero > div.icon > img:nth-child(2){
+    height: 20px;
+    cursor: pointer;
+}
+/* #heroContainer > div.hero > div.icon > img:nth-child(3){
+    height: 20px;
+}  */
+#heroContainer > div.hero > div.icon {
+    position: relative;
+    top: 21rem;
+    left: 35rem;
+    /* padding: 0px 3px; */
+    /* margin: 11px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 57px;
+   
+}
+
+/* ......resposive.....*/
+
+/* balaji top image */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+ {
+     #heroContainer
+     {
+    width: 63rem 
+    }
+}
+/* women image */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)  { 
+    #heroContainer 
+    {
+    width: 80rem 
+    }
+    #cointainer-2 > div > h2{
+        top: 62rem;
+        margin: 0px 10px;
+        display: inline;
+        font-size: 28pt;
+        padding: 10px;
+        left: 30rem;
+        width: 17rem;
+    }
+    #cointainer-2 > div > img{
+        width: 90rem 
+    }
+    #cointainer-2 > div > div > a{
+        top: 66rem;
+        left: 37rem;
+    }
+
+}
+
+/* navbar */
+
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+
+{
+    .hero{
+        width: 91rem;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+ 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)   {
+        #cointainer-3 > img {
+         width: 90rem;
+         position: absolute;
+         bottom: 34rem;
+    }
+    #cointainer-3 > h2 { 
+        top: -12rem;
+     margin: 0px 10px;
+     display: inline;
+     font-size: 28pt;
+     padding: 10px;
+     left: 32rem;
+     width: 17rem;
+    }
+    #cointainer-3 > div > a{
+        top: -7rem;
+         left: 38rem 
+    }
+   }
+   .grad {
+  
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: 0rem;
+    top: 16rem; 
+    height: 554px;
+    width: 1880px;
+}
+
+
+
+/* footer */
+@media screen and ( max-width:768px) and (min-width:574px) {
+    .footer-col {
+        width: 80rem;
+        margin-bottom: 30px;
+    }
+   
+    .footer{
+        width: 75rem;
+        height: 15rem;
+        padding: 34%;
+        top: 120rem;
+    }
+    body > footer > div > div
+    {
+        width: 64rem;
+        }
+        .socialLinks{
+            width: 16rem;
+          }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .footer-col {
+        width: 80rem;
+        margin-bottom: 30px;
+    }
+    body > footer > div > div{
+        width: 64rem;
+        
+        }
+         .footer
+         {
+             width: 75rem;
+             height: 15rem;
+             padding: 34%;
+             top: 120rem;
+          }
+          .socialLinks{
+            width: 16rem;
+            font-size: 18px;
+          }
+          .footer-col > ul > li > a{
+            font-size: 21pt;
+          }
+          .footer-col h4{
+            font-size: 30px;
+          }
+}
+
+
+/* height */
+
+@media only screen and (min-height:666px) and (max-height:667px)
+{
+    .footer{
+        top: 143rem;
+    }
+    #cointainer-3 > img{
+        top: -19rem;
+    }
+    #cointainer-3 > div > a{
+        top: 16rem;
+    }
+    #cointainer-3 > h2{
+        top: 11rem;
+
+    }
+    #cointainer-2 > div > div > a{
+        top: 82rem;
+        left: 38rem;
+    }
+    #cointainer-2 > div > h2{
+        top: 77rem;
+        left: 32rem;
+    }
+    #heroContainer > div.hero > div > a{
+        position: absolute;
+        left: -5rem;
+    }
+}
+@media only screen and (min-height:895px) and (max-height:896px)
+{
+    .footer{
+        top: 191rem;
+    }
+    #cointainer-3 > img{
+        top: 14rem;
+    }
+    #cointainer-3 > h2{
+        top: 54rem;
+    }
+    #cointainer-3 > div > a {
+        top: 60rem;   
+    }
+    #cointainer-2 > div > h2{
+        top: 105rem;
+        left: 34rem;
+    }
+    #cointainer-2 > div > div > a {
+        top: 111rem;
+        left: 40rem;
+    }
+    #heroContainer > div.hero > div > a{
+        position: absolute;
+        left: -5rem;
+    }
+}
+@media only screen and (min-height:843px) and (max-height:844px)
+{
+    .footer{
+        top: 191rem;
+    }
+    #cointainer-3 > img{
+        top: 14rem;
+    }
+    #cointainer-3 > h2{
+        top: 54rem;
+    }
+    #cointainer-3 > div > a {
+        top: 60rem;   
+    }
+    #cointainer-2 > div > h2{
+        top: 105rem;
+        left: 34rem;
+    }
+    #cointainer-2 > div > div > a {
+        top: 111rem;
+        left: 40rem;
+    }
+    #heroContainer > div.hero > div > a{
+        position: absolute;
+        left: -5rem;
+    }
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+  font-family: 'poppins','sans-serif';
+}
+body{
+    background-color:white;
+}
+/* navbar*/
+.hero1{
+
+    width: 100vh;
+    height: 100vh;
+    
+    right: 58%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 10%;
+}
+
+#navbar > ul{
+    position: relative;
+    right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+}
+nav ul li a:hover{
+    border: 12px solid white  ;
+    border-radius: 5px;
+    color: #111111;
+    background-color: #fff;
+    height: 10px;
+    
+    
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    z-index: 1;
+
+}
+
+
+
+/* -------footer------- */
+.footerFormenPage {
+    background-color: #020202;
+    color: #fff;
+    padding: 2% 0%;
+    position: absolute;
+    width: 100%;
+    top: 220rem;
+    
+}
+.containerFormpFooter{
+    max-width: 1170px;
+   
+    margin: auto;
+
+}
+body > footer > div > div{
+    display: flex;
+}
+
+body > footer > div > div > div:nth-child(1) > ul{
+
+    list-style: none;
+    }
+body > footer > div > div > div:nth-child(2) > ul{
+
+    list-style: none;
+    }
+    body > footer > div > div > div:nth-child(3) > ul {
+
+        list-style: none;
+    }
+
+body > footer > div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mpFooter-col{
+    width: 22%;
+    padding: 0 15px;
+
+}
+
+.mpFooter-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    position: relative;
+}
+.mpFooter-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #f8f6f7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.mpFooter-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mpFooter-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff ;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.mpFooter-col ul li a:hover{
+    color: #ffffff;
+    padding-left:8px ;
+}
+.mpFooter-col .socialLinksmp a{
+    display: inline-block;
+    height: 40px;
+    width: 38px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0px 10px 10px 0px;
+    
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.mpFooter-col .socialLinksmp a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+#heroMContainer1 > div > footer > div > div{
+    display: flex;
+}
