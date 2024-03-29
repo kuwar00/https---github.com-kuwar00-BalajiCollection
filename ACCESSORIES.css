@@ -74,22 +74,6 @@ font-style: italic;
     flex-wrap: wrap;
 
 }
-/* .btn{
-    position: absolute;
-    top: 65%;
-    justify-content: center;
-    text-align: center;
-} */
-/* #heroMContainer1 > div > img {
-    width: 100vh;
-    height: 100vh;
-    position: absolute;
-    top: 16rem;
-    left: 16rem;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
 
 #heroMContainer1 > div > div.img2 > img{
     height: 100%;
@@ -147,15 +131,7 @@ nav{
     top: 105rem;
 }
     
-/* #heroMContainer1 > div > div.img3 > img {
-    position: absolute;
-    left: 68rem;
-    top: 40rem;
-    height: 425px;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
+
 
 #menContainer3 > div.menBoxTr2 > h2 {
     font-size: 50px;
@@ -192,16 +168,7 @@ nav{
     background-color: yellow;
 }
 
-/* #heroMContainer1 > div > div.img4 > img {
-    height: 425px;
-    position: absolute;
-    top: 40rem;
-    left: 87rem;
-    width: 248px;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
+
 
 
 #menContainer2 > div.heroM2 > img {
