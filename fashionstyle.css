@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:var(--primary-color);
 }
 *{
     margin: 0px;
@@ -7,7 +7,24 @@ body{
   
   font-family: 'poppins','sans-serif';
 }
+:root{
+    --primary-color: #fff;
+    --secondary-color:#000000;
+}
+.dark{
+    --primary-color: #000;
+    --secondary-color:#ffffff;
+}
 /* navbar*/
+#DarkLightMode {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 53rem;
+    border: solid white ;
+    background-color: #fff;
+    border-radius: 11px;
+}
 
 .navbar{
     margin: 10px;
@@ -89,8 +106,8 @@ nav ul li a:hover{
 }
 .content h2{
 font-size: 50px;
-color: #0a0a0a;
-background-color: white;
+color: var(--secondary-color);
+background-color:var(--primary-color);
 display: inline;
 margin: 30px;
 font-style: italic;
@@ -104,12 +121,12 @@ font-style: italic;
 #cointainer-2 img {
     position: absolute;
     height: 100vh;
-    width: 100%;
+    width: 135rem;
     z-index: -1;
 }
 .btn{
     position: absolute;
-    top: 65%;
+    top: 60%;
     justify-content: center;
     text-align: center;
 }
@@ -119,39 +136,36 @@ font-style: italic;
     justify-content: center;
     text-align: center;
 }
-.btn a{
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-size: 24px;
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 14px 20px ;
-    background-color: #00000030;
 
-}
 #cointainer-2 > div{
-    width: 100%;
     height: 100vh;
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90rem;
+    
 }
 .women-contant{
     font-size: 50px;
     color: #f5f2f2;
-    display: flex;
+    /* display: flex; */
     margin: 30px;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
     justify-items: center;
+    left: 46rem;
+    top: 32rem;
+    position: absolute;
 
 }
 .btn-2 a{
    text-decoration: none;
+   left: 5rem ;
+   top: 9rem;
+   position:absolute;
     display: inline-block;
     color: white;
     font-size: 24px;
@@ -168,7 +182,7 @@ font-style: italic;
 }
 .btn-3 a{
     position: absolute;
-    top: 43rem;
+    top: 52rem;
     left: 56rem;
     text-decoration: none;
     display: inline-block;
@@ -191,7 +205,7 @@ font-style: italic;
     justify-content: center;
     justify-items: center;
     position: absolute;
-   
+   top: 33rem;
 
 }
 
@@ -220,10 +234,28 @@ font-style: italic;
     width: 100%;
     background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
 }
+#heritageWedding-Accessory > div > img 
+{
+    top: 187rem;
+    position: absolute;
+    width: -webkit-fill-available;
+    z-index: -1;
+
+}
+#cointainer-3 > div > div.grad {
+    height: 100%;
+    width: 1795px;
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+
+}
 /* ---------footer------------ */
 .footer{
-    background-color: #020202;
-    color: #fff;
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+    
     padding: 2% 0%;
     position: absolute;
     width: 100%;
@@ -264,7 +296,9 @@ body > footer > div > div{
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #f8f6f7;
+    color: var(--secondary-color);
+   
+    
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -275,32 +309,39 @@ body > footer > div > div{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color:#ffffff ;
+    
+
+
     text-decoration: none;
     font-weight: 300px;
-    color: #bbbbbb;
+    color: var(--secondary-color);
+
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: #ffffff;
+   
+    color:var(--secondary-color);
+    
     padding-left:8px ;
 }
 .footer-col .socialLinks a{
     display: inline-block;
     height: 40px;
     width: 38px;
-    background-color: rgba(255,255,255,0.2);
+  
     margin: 0px 10px 10px 0px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+  
+    color: var(--secondary-color);
     transition: all 0.5s ease;
 }
 .footer-col .socialLinks a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    
 }
 
 #heroContainer > div.hero > div.icon > img:nth-child(1){
@@ -328,6 +369,7 @@ body > footer > div > div{
    
 }
 
+
 /* ......resposive.....*/
 
 /* balaji top image */
@@ -340,6 +382,13 @@ and (-webkit-min-device-pixel-ratio: 2)
      {
     width: 63rem 
     }
+}
+#cointainer-2 {
+    display: flex;
+    position: absolute;
+    width: 80rem;
+     
+   
 }
 /* women image */
 
@@ -361,11 +410,18 @@ and (-webkit-min-device-pixel-ratio: 2)
         width: 17rem;
     }
     #cointainer-2 > div > img{
-        width: 90rem 
+        width: 80rem 
     }
     #cointainer-2 > div > div > a{
         top: 66rem;
         left: 37rem;
+    }
+    #cointainer-2 {
+    width: 80rem;
+    display: flex;
+    }
+    #cointainer-2 > div {
+        justify-content: flex-start;
     }
 
 }
@@ -382,9 +438,10 @@ and (-webkit-min-device-pixel-ratio: 2)
 
 {
     .hero{
-        width: 91rem;
+        width: 80rem;
     }
 }
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -412,16 +469,30 @@ and (-webkit-min-device-pixel-ratio: 2)
         top: -7rem;
          left: 38rem 
     }
+    .btn-3 a {
+        top: 55rem;
+    position: relative;
+    left: 41rem;
+    }
+    
+     #cointainer-3 > div {
+        position: absolute;
+        display: flex;
+        width: 80rem;
+        bottom: 37rem;
+     }
+     .grad {
+        background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+        position: absolute;
+        left: 0rem;
+        top: -5rem; 
+        height: 553px;
+        width: 1366px;
+     }
+ 
+
    }
-   .grad {
-  
-    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
-    position: absolute;
-    left: 0rem;
-    top: 16rem; 
-    height: 554px;
-    width: 1880px;
-}
+
 
 
 
@@ -461,10 +532,10 @@ and (-webkit-min-device-pixel-ratio: 2)
         }
          .footer
          {
-             width: 75rem;
+             width: 66rem;
              height: 15rem;
              padding: 34%;
-             top: 120rem;
+             top: 114rem;
           }
           .socialLinks{
             width: 16rem;

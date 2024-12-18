@@ -10,6 +10,28 @@
     justify-content: center;
 
 } */
+ body{
+    background-color: var(--primary-color);
+ }
+:root{
+    --primary-color: #fff;
+    --secondary-color:#000000;
+}
+.dark{
+    --primary-color: #000;
+    --secondary-color:#ffffff;
+}
+#DarkLightMode {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 53rem;
+    border: solid white ;
+    background-color: #fff;
+    border-radius: 11px;
+}
+
+/* navbar*/
 
 .logo{
     width: 10%;
@@ -55,11 +77,23 @@ nav{
 }
 #heritageWedding-container > div.heritage-classDiv > h2 {
     position: absolute;
-    top: 38rem;
+    top: 39rem;
     left: 43rem;
     font-size: 50px;
     color: #f5f2f2;
     margin: 30px;
+    text-align: center;
+    /* align-items: center; */
+    display: inline;
+    justify-items: center;
+}
+#heritageWedding-Accessory > div > div.HWA-class > h2 {
+    position: absolute;
+    top: 32rem;
+    left: 43rem;
+    font-size: 50px;
+    color: #f5f2f2;
+    margin: 9px;
     text-align: center;
     /* align-items: center; */
     display: inline;
@@ -74,6 +108,18 @@ nav{
     color: #f5f2f2;
     text-align: center;
     justify-items: center;
+}
+#heritageWedding-Accessory > div > div.HWA-class > h3
+ {
+    display: inline-flex;
+    position: absolute;
+    color:#f5f2f2 ;
+    text-align: center;
+    justify-items: center;
+    left: 47rem;
+    top: 30rem;
+    font-size: 18px;
+    
 }
 #heritageWedding-container {
     display: flex;
@@ -111,11 +157,29 @@ nav{
     position: absolute;
     top: 130rem;
     width: 112rem;
+}#heritageWedding-Accessory > div > div.HWA-btn {
+  
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 20px;
+    background-color: #00000030;
+    position: absolute;
+    right: 54rem;
+    top: 39rem;
+}
+#heritageWedding-Accessory > div > div.HWA-btn > a {
+    color: white;
+    text-decoration: none;
 }
 
 body > h1 {
     font-size: 58pt;
-    color: #030303;
+    color: var(--secondary-color);
+  
+    
     font-style: italic;
     
     text-align: center;
@@ -138,6 +202,21 @@ body > h1 {
     top: 123px;
 
 }
+.HWAGrad {
+    height: 100%;
+    width: 112rem;
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: -5px;
+    top: 0rem;
+
+}
+#heritageWedding-Accessory > div:nth-child(1) {
+    position: relative;
+    top: 175rem;
+    display: flex;
+    justify-content: center;
+}
 #heritageWeddingVideo {
     height: 100vh;
 }
@@ -146,8 +225,8 @@ body > h1 {
 }
 
 #idHeritageIcon {
-    position: relative;
-    top: 166rem;
+    position: absolute;
+    top: 178rem;
     left: 38rem;
    
     display: flex;
@@ -162,19 +241,24 @@ body > h1 {
     height: 20px;
     cursor: pointer;
 }
-
+#heritageWedding-Accessory > div:nth-child(1) > img {
+    width: 100%;
+    height: 100vh;
+}
 #heritageiconForPlayVideo {
     height: 20px;
     cursor: pointer;
 }
+/* ---------footer------------ */
 
 .footerForWomenPage {
-    background-color: #020202;
-    color: #fff;
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+    
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 188rem;
+    top: 244rem;
     
 }
 .containerForWPFooter{
@@ -222,7 +306,9 @@ body > footer > div > div{
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #f8f6f7;
+    color: var(--secondary-color);
+
+
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -234,29 +320,29 @@ body > footer > div > div{
 .wpFooter-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color:#ffffff ;
+   color: var(--secondary-color);
     text-decoration: none;
     font-weight: 300px;
-    color: #bbbbbb;
+    
     display: block;
     transition: all 0.3s ease;
 }
 
 .wpFooter-col ul li a:hover{
-    color: #ffffff;
+    color:var(--secondary-color);
     padding-left:8px ;
 }
 .wpFooter-col .socialLinksWp a{
     display: inline-block;
     height: 40px;
     width: 38px;
-    background-color: rgba(255,255,255,0.2);
+  
     margin: 0px 10px 10px 0px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+    color: var(--secondary-color);
+        transition: all 0.5s ease;
 }
 body > footer > div > div > div:nth-child(1) > ul {
     padding: 0px ;
@@ -270,6 +356,7 @@ body > footer > div > div > div:nth-child(3) > ul {
 
 
 .wpFooter-col .socialLinksWp a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    
 }

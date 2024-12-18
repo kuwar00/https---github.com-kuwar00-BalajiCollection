@@ -1,11 +1,28 @@
 body{
-    background-color:white;
+    background-color:var(--primary-color);
 }
 *{
     margin: 0px;
     padding: 0px;
   
   font-family: 'poppins','sans-serif';
+}
+:root{
+    --primary-color: #fff;
+    --secondary-color:#000000;
+}
+.dark{
+    --primary-color: #000;
+    --secondary-color:#ffffff;
+}
+#DarkLightMode {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 53rem;
+    border: solid white ;
+    background-color: #fff;
+    border-radius: 11px;
 }
 /* navbar*/
 
@@ -90,7 +107,7 @@ nav ul li a:hover{
     top: 67rem;
     left: 45rem;
     font-size: 30px;
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
     justify-items: center;
     justify-content: center;
@@ -137,7 +154,7 @@ nav ul li a:hover{
 }
 #accessoryBox > div.accessoryHeading > h1 {
     font-size: 58pt;
-    color: #030303;
+    color: var(--secondary-color);
     font-style: italic;
     
     text-align: center;
@@ -158,7 +175,7 @@ nav ul li a:hover{
     top: 56rem;
     left: 43rem;
     font-size: 50px;
-    color: #f5f2f2;
+    color:white;
     margin: 30px;
     text-align: center;
     /* align-items: center; */
@@ -171,7 +188,7 @@ nav ul li a:hover{
     top: 57rem;
     left: 47rem;
     font-size: 18px;
-    color: #f5f2f2;
+    color: white;
     text-align: center;
     justify-items: center;
 }
@@ -204,7 +221,7 @@ nav ul li a:hover{
     top: 132rem;
     left: 45rem;
     font-size: 30px;
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
     justify-items: center;
     justify-content: center;
@@ -217,7 +234,7 @@ nav ul li a:hover{
     top: 168rem;
     left: 45rem;
     font-size: 30px;
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
     justify-items: center;
     justify-content: center;
@@ -263,7 +280,7 @@ nav ul li a:hover{
     top: 204rem;
     left: 45rem;
     font-size: 30px;
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
     justify-items: center;
     justify-content: center;
@@ -278,10 +295,18 @@ nav ul li a:hover{
     height: 24rem;
     width: 100%;
 }
+#menTie > div.tieClip3 > img {
+    height: 24rem;
+    width: 100%;
+}
+
+
+/* ---------footer------------ */
 
 .footer{
-    background-color: #020202;
-    color: #fff;
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+    
     padding: 2% 0%;
     position: absolute;
     width: 100%;
@@ -322,7 +347,8 @@ body > footer > div > div{
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #f8f6f7;
+    color: var(--secondary-color);
+   
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -333,31 +359,31 @@ body > footer > div > div{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color:#ffffff ;
+  
     text-decoration: none;
     font-weight: 300px;
-    color: #bbbbbb;
+    color: var(--secondary-color);
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: #ffffff;
+    color:var(--secondary-color);
     padding-left:8px ;
 }
 .footer-col .socialLinks a{
     display: inline-block;
     height: 40px;
     width: 38px;
-    background-color: rgba(255,255,255,0.2);
+    
     margin: 0px 10px 10px 0px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+    color: var(--secondary-color);
     transition: all 0.5s ease;
 }
 .footer-col .socialLinks a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
 }
 

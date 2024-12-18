@@ -16,10 +16,11 @@
         <ul>
            <li><a href="fashion.html">HOME</a></li>
            <li><a href="wedding.html">WEDDING</a></li>
-           <li><a href="OCCASIONS.html">ACCESSORIES</a></li>
+           <li><a href="ACCESSORIES.html">ACCESSORIES</a></li>
            <li><a href="About us.html">ABOUT US</a></li>
-           <li><a href="contactus.html">CONTACT US</a></li>
+           <li><a href="store.html"> STORES</a></li>
         </ul> 
+        <img src="moon.png" alt="" id="DarkLightMode" >
          </nav>
          
           <h1 class="heritage-contant">Balaji Collection</h1>
@@ -29,8 +30,8 @@
           <div>
             <div class="heritageGrad"> </div>
             <img src="heri.jpg" alt="Heritage Wedding">
-          </div>
-          <div class="heritage-classDiv"> <h3 class="heritageH3">WEDDINGS</h3>
+            </div>
+           <div class="heritage-classDiv"> <h3 class="heritageH3">WEDDINGS</h3>
             <h2 class="men-contantmp">&nbsp;&nbsp;&nbsp;Heritage Weddings&nbsp;&nbsp;&nbsp;
            
                </div>
@@ -55,8 +56,25 @@
             <img src="indiangirl1.jpeg" alt="">
           </div>
          </section>
+         <section id="heritageWedding-Accessory">
+          <div>
+             <div class="HWAGrad"> </div>
+              <img src="man in page.webp" alt="Heritage Wedding Man Option">
+         
+              <div class="HWA-class"> <h3 class="HWA-H3">HERITAGE WEDDING</h3>
+              <h2 class="h2-HWA">&nbsp;&nbsp;&nbsp;Men's Wear&nbsp;&nbsp;&nbsp;
+                
+              </div> 
+              <div class="HWA-btn">
+                <a href="man's ware.html">Explore</a>
+                </div>
+          </div>  
+
+         </section>
          
         <div id="idHeritageIcon"> 
+         
+
           <img id="heritageiconForPlayVideo" src="pause-64.png" alt="">
           <img id="heritageiconFormuteVideo" src="mute-64.png" alt="" > 
         
@@ -80,17 +98,17 @@
                     <li> <a href="#">shipping</a></li>
                     <li> <a href="#">returns</a></li>
                     <li> <a href="#">order status</a></li>
-                    <li> <a href="#">payment options</a></li>
+                    <li> <a href="#">find us</a></li>
                   </ul>
                 </div>
                 <div class="wpFooter-col">
                       <h4>Wedding Collection</h4>
                       <ul>
-                        <li> <a href="#">traditional</a></li>
-                        <li> <a href="#">western</a></li>
-                        <li> <a href="#">men's all</a></li>
-                        <li> <a href="#">women's all</a></li>
-                      </ul>
+                        <li> <a href="heritage wedding.html">traditional</a></li>
+                        <li> <a href="white wedding.html">western</a></li>
+                        <li> <a href="all man.html">men's all</a></li>
+                        <li> <a href="all woman.html">women's all</a></li>
+                        </ul>
                     </div>
                 <div class="wpFooter-col">
                   <h4>follow us</h4>
@@ -132,6 +150,17 @@ iconAc.onclick = function() {
     iconAc.src = "play-64.png";
  }
 }
-
+var icon3 = document.getElementById("DarkLightMode");
+icon3.onclick = function()
+  {
+    document.body.classList.toggle("dark");
+    if(document.body.classList.contains("dark"))
+    {
+   icon3.src = "sun.png";
+    }
+    else{
+    icon3.src = "moon.png";
+    }
+  }
 </script>
 </html>

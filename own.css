@@ -1,0 +1,22 @@
+/* Ensure the slider is visible and responsive */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures images are centered and fill the container */
+  }
+  
+  /* Optional styles for navigation buttons and pagination */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000; /* Adjust button colors as needed */
+  }
+  
+  .swiper-pagination-bullet {
+    background: #000; /* Pagination bullet color */
+  }
+  
