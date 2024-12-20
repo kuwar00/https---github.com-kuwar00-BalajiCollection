@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+.dark {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* other sec */
+#otherFunctions-mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem;
+    height: 131vh;
+    background: url('/Other Functions/hero main.webp') no-repeat cover;
+    background-position: center;
+}
+
+#otherFunctions-mainContainer .heading1 {
+    text-align: center;
+    color: #fff;
+}
+
+#otherFunctions-mainContainer h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+#otherFunctions-mainContainer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* swiper sec */
+.swiper {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* video section */
+#videoCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+#videoCon .video-container {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#videoCon video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* footer  */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-col h4 {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #ff4081;
+}
+
+.footer .socialLinks a {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    transition: color 0.3s;
+}
+
+.footer .socialLinks a:hover {
+    color: #ff4081;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #otherFunctions-mainContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+}
