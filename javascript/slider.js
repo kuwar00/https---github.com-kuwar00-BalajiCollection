@@ -16,6 +16,7 @@ var swiper = new Swiper(".mySwiper", {
   centeredSlides: true,    // Center active slides
   grabCursor: true,        // Show grab cursor for a better UX
   loop: true,              // Enable looping
+  zIndex: 1, // Ensure swiper's internal z-index is correct
   pagination: {
     el: ".swiper-pagination", // Add pagination bullets
     clickable: true,         // Make pagination clickable
