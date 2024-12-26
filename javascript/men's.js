@@ -1,3 +1,5 @@
+
+
 var video = document.getElementById("men'sWearAccessoryVideo");
 var icon2 = document.getElementById("Menicon02");
 var icon1 = document.getElementById("MenIcon");
@@ -43,6 +45,7 @@ myicon.onclick = function() {
     myicon.src = "../collection-photos/play-64.png";
  }
 }
+
 var icon3 = document.getElementById("DarkLightMode");
 icon3.onclick = function()
   {
