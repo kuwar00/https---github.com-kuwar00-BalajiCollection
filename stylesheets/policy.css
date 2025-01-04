@@ -1,0 +1,188 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+.dark {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+#DarkLightMode {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 53rem;
+    border: solid white ;
+    background-color: #fff;
+    border-radius: 11px;
+}
+
+#policy {
+    width: 100%;
+    height: 100%;
+}
+#policy > div > img {
+    width: 100%;
+    height: 62vh;
+    position: relative;
+    z-index: -1;
+    top: 10rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+.ppGrd {
+    height: 51%;
+    width: 112rem;
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: 7px;
+    top: 339px;
+} 
+body > h1 {
+    font-size: 58pt;
+color: var(--secondary-color);
+
+
+font-style: italic;
+
+text-align: center;
+position: relative;
+align-items: center;
+display: inline-flex;
+
+justify-items: center;
+left: 38rem;
+justify-content: center;
+top: 8rem;
+flex-direction: row;
+}
+#policy > div.headingPP > h2 {
+  color: white;
+    font-size: 27pt;
+    position: absolute;
+    top: 41rem;
+    right: 79rem;
+    display: flex;
+    width: 33rem;
+    justify-content: center;
+    letter-spacing: 9px;
+}
+body > div.paraPP {
+    display: flex;
+    height: fit-content;
+    width: 70%;
+    flex-direction: column;
+    position: absolute;
+    font-size: 25pt;
+    align-items: stretch;
+    text-align: justify ;
+    top: 56rem;
+    color: var(--secondary-color);
+    left: 13rem;
+}
+body > div.paraPP > p {
+    font-size: 21pt;
+}
+body > div.linePP > img {
+    display: flex;
+    position: absolute;
+    top: 90rem;
+    right: 49rem;
+}
+
+/* footer  */
+.footer{
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+    
+    padding: 2% 0%;
+    position: absolute;
+    width: 100%;
+    top: 107rem;
+}
+.foot-container{
+    max-width: 1170px;
+   
+    margin: auto;
+}
+body > footer > div > div > div:nth-child(1) > ul{
+    list-style: none;
+}
+body > footer > div > div > div:nth-child(2) > ul{
+    list-style: none;
+}
+body > footer > div > div > div:nth-child(3) > ul{
+    list-style: none;
+}
+body > footer > div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    color: var(--secondary-color);
+   
+    
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    
+
+
+    text-decoration: none;
+    font-weight: 300px;
+    color: var(--secondary-color);
+
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+   
+    color:var(--secondary-color);
+    
+    padding-left:8px ;
+}
+.footer-col .socialLinks a{
+    display: inline-block;
+    height: 40px;
+    width: 38px;
+  
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  
+    color: var(--secondary-color);
+    transition: all 0.5s ease;
+}
+.footer-col .socialLinks a:hover{
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    
+}
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
+}

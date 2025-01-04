@@ -316,3 +316,7 @@ body > footer > div > div{
     background-color:var(--secondary-color);
     
 }
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
+}
