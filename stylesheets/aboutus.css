@@ -219,7 +219,8 @@ nav ul li a:hover{
 
 
 
-/* ---------footer------------ */
+
+/* footer  */
 .footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
@@ -227,7 +228,7 @@ nav ul li a:hover{
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 169rem;
+    top: 164rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -311,6 +312,11 @@ body > footer > div > div{
     background-color:var(--secondary-color);
     
 }
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
 
 #heroContainer > div.hero > div.icon > img:nth-child(1){
     height: 20px;

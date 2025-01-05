@@ -10,18 +10,7 @@ icon3.onclick = function()
     icon3.src = "../collection-photos/moon.png";
     }
   }
-  function toggleDropdown() {
-    console.log("Dropdown clicked"); // Debug log
-    if (drop.classList.contains("expand")) {
-        drop.classList.remove("expand");
-        imgToggle.src = "../collection-photos/down.png";
-        console.log("Dropdown collapsed"); // Debug log
-    } else {
-        drop.classList.add("expand");
-        imgToggle.src = "../collection-photos/up.png";
-        console.log("Dropdown expanded"); // Debug log
-    }
-}
+ 
 
 
 

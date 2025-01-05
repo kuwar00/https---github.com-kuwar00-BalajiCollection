@@ -41,46 +41,78 @@ body{
     letter-spacing: 11pt;
     width: 20rem;
 }
-#dropId {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 3rem;
+
+.accordion{
+    margin: 60px;
+    width: 600px;
 }
-#dropId > div.subharding > h3 {
-    font-size: 30pt;
-    color: var(--secondary-color);
+.accordion li{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f7efe3;
+   
 }
-#dropId > div.pCU > p {
-    margin-top: 1rem;
-    font-size: 20pt;
-    color: var(--secondary-color);
-}
-#dropId > div.pCU > div {
-    margin-top: 20px;
-    font-size: 18pt;
-    color: var(--secondary-color);
-}
-#dropId > div.pCU > div > a {
+body > ul > li:nth-child(1) > div > a {
     text-decoration: none;
+    color: #000;
 }
-#ContactUs > div.headingCU > img {
-    top: 152px;
-    height: 36px;
-    position: relative;
-    left: 64rem;
+body > ul > li:nth-child(2) > div > a{
+    text-decoration: none;
+    color: #000;
+}
+body > ul > li:nth-child(3) > div > a{
+    text-decoration: none;
+    color: #000;
 }
 
-#dropId > div.pCU > div {
-    max-height: 0px;
+body > ul > li:nth-child(1) > div > hr {
+    width: 200px;
+}
+body > ul > li:nth-child(2) > div > hr {
+    width: 156px;
+}
+body > ul > li:nth-child(3) > div > hr {
+    width: 156px;
+}
+.accordion li label {
+display: flex;
+align-items: center;
+padding: 10px;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+}
+
+label::before{
+    content:'+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+input[type="radio"] {
+    display: none;
+}
+.accordion .contantCU {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-in-out; /* Smooth transition for expanding/collapsing */
+    transition: max-height0.5s,padding 0.5s;
 }
-#dropId > div.pCU > div.expand {
-    max-height: 200px; /* Or the appropriate height */
+.accordion input[type="radio"]:checked + label + .contantCU {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before {
+content: '-';
 }
 
+/* footer  */
 .footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
@@ -88,7 +120,7 @@ body{
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 169rem;
+    top: 82rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -171,4 +203,8 @@ body > footer > div > div{
     color: var(--primary-color);
     background-color:var(--secondary-color);
     
+}
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
 }
