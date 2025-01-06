@@ -301,8 +301,7 @@ nav ul li a:hover{
 }
 
 
-/* ---------footer------------ */
-
+/* footer  */
 .footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
@@ -310,7 +309,7 @@ nav ul li a:hover{
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 244rem;
+    top: 243rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -349,6 +348,7 @@ body > footer > div > div{
     bottom: -3px;
     color: var(--secondary-color);
    
+    
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -359,31 +359,42 @@ body > footer > div > div{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-  
+    
+
+
     text-decoration: none;
     font-weight: 300px;
     color: var(--secondary-color);
+
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
+   
     color:var(--secondary-color);
+    
     padding-left:8px ;
 }
 .footer-col .socialLinks a{
     display: inline-block;
     height: 40px;
     width: 38px;
-    
+  
     margin: 0px 10px 10px 0px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+  
     color: var(--secondary-color);
     transition: all 0.5s ease;
 }
 .footer-col .socialLinks a:hover{
     color: var(--primary-color);
     background-color:var(--secondary-color);
+    
+}
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
 }
 

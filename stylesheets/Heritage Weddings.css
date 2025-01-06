@@ -249,90 +249,82 @@ body > h1 {
     height: 20px;
     cursor: pointer;
 }
-/* ---------footer------------ */
 
-.footerForWomenPage {
+/* footer  */
+.footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
     
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 244rem;
-    
+    top: 239rem;
 }
-.containerForWPFooter{
+.foot-container{
     max-width: 1170px;
    
     margin: auto;
-
 }
-body > footer > div > div{
-    display: flex;
+body > footer > div > div > div:nth-child(1) > ul{
+    list-style: none;
 }
-
- body > footer > div > div > div:nth-child(1) > ul{
-
+body > footer > div > div > div:nth-child(2) > ul{
     list-style: none;
-    }
- body > footer > div > div > div:nth-child(2) > ul{
-
+}
+body > footer > div > div > div:nth-child(3) > ul{
     list-style: none;
-    }
-    body > footer > div > div > div:nth-child(3) > ul {
-
-        list-style: none;
-    }
-
+}
 body > footer > div > div{
     display: flex;
     flex-wrap: nowrap;
 }
-.wpFooter-col{
+.footer-col{
     width: 22%;
     padding: 0 15px;
 
 }
-
-.wpFooter-col h4{
+.footer-col h4{
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 35px;
     line-height: 1.5;
     position: relative;
 }
-.wpFooter-col h4::before{
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
     bottom: -3px;
     color: var(--secondary-color);
-
-
+   
+    
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
-
-.wpFooter-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
-.wpFooter-col ul li a{
+.footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-   color: var(--secondary-color);
+    
+
+
     text-decoration: none;
     font-weight: 300px;
-    
+    color: var(--secondary-color);
+
     display: block;
     transition: all 0.3s ease;
 }
-
-.wpFooter-col ul li a:hover{
+.footer-col ul li a:hover{
+   
     color:var(--secondary-color);
+    
     padding-left:8px ;
 }
-.wpFooter-col .socialLinksWp a{
+.footer-col .socialLinks a{
     display: inline-block;
     height: 40px;
     width: 38px;
@@ -341,22 +333,16 @@ body > footer > div > div{
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+  
     color: var(--secondary-color);
-        transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-body > footer > div > div > div:nth-child(1) > ul {
-    padding: 0px ;
-}
-body > footer > div > div > div:nth-child(2) > ul {
-    padding: 0px ;
-}
-body > footer > div > div > div:nth-child(3) > ul {
-    padding: 0px ;
-}
-
-
-.wpFooter-col .socialLinksWp a:hover{
+.footer-col .socialLinks a:hover{
     color: var(--primary-color);
     background-color:var(--secondary-color);
     
+}
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
 }

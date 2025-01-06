@@ -84,112 +84,99 @@ nav{
 
 
 
-/* -------footer------- */
-
-.footerFormenPage {
+/* footer  */
+.footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
-    
     
     padding: 2% 0%;
     position: absolute;
     width: 100%;
     top: 220rem;
-    
 }
-.containerFormpFooter{
+.foot-container{
     max-width: 1170px;
    
     margin: auto;
-
 }
-body > footer > div > div{
-    display: flex;
-}
-
 body > footer > div > div > div:nth-child(1) > ul{
-
     list-style: none;
-    }
+}
 body > footer > div > div > div:nth-child(2) > ul{
-
     list-style: none;
-    }
-    body > footer > div > div > div:nth-child(3) > ul {
-
-        list-style: none;
-    }
-
+}
+body > footer > div > div > div:nth-child(3) > ul{
+    list-style: none;
+}
 body > footer > div > div{
     display: flex;
     flex-wrap: nowrap;
 }
-.mpFooter-col{
+.footer-col{
     width: 22%;
     padding: 0 15px;
 
 }
-
-.mpFooter-col h4{
+.footer-col h4{
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 35px;
     line-height: 1.5;
     position: relative;
 }
-.mpFooter-col h4::before{
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
     bottom: -3px;
     color: var(--secondary-color);
    
+    
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
-
-.mpFooter-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
-.mpFooter-col ul li a{
+.footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: var(--secondary-color);
+    
+
 
     text-decoration: none;
     font-weight: 300px;
-  
+    color: var(--secondary-color);
+
     display: block;
     transition: all 0.3s ease;
 }
-
-.mpFooter-col ul li a:hover{
-    
+.footer-col ul li a:hover{
+   
     color:var(--secondary-color);
+    
     padding-left:8px ;
 }
-.mpFooter-col .socialLinksmp a{
+.footer-col .socialLinks a{
     display: inline-block;
     height: 40px;
     width: 38px;
- 
+  
     margin: 0px 10px 10px 0px;
-    color: var(--secondary-color);
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+  
     color: var(--secondary-color);
     transition: all 0.5s ease;
 }
-
-.mpFooter-col .socialLinksmp a:hover{
+.footer-col .socialLinks a:hover{
     color: var(--primary-color);
     background-color:var(--secondary-color);
     
 }
-
-
-#heroMContainer1 > div > footer > div > div{
-    display: flex;
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
 }

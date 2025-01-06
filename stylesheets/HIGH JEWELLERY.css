@@ -164,15 +164,7 @@ body > section.HJCont4 > div:nth-child(3) > img {
 }
 
 
-
-.footer-HJFooter {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 2% 0%;
-    position: absolute;
-    width: 100%;
-    top:400rem;
-} 
+/* footer  */
 .footer{
     color: var(--secondary-color);
     background-color:var(--primary-color);
@@ -180,7 +172,7 @@ body > section.HJCont4 > div:nth-child(3) > img {
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 169rem;
+    top: 400rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -263,4 +255,8 @@ body > footer > div > div{
     color: var(--primary-color);
     background-color:var(--secondary-color);
     
+}
+#foot-container {
+    max-width: 1170px;
+    margin: auto;
 }
