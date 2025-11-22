@@ -121,7 +121,7 @@ font-style: italic;
 #cointainer-2 img {
     position: absolute;
     height: 100vh;
-    width: 135rem;
+    width: 100rem;
     z-index: -1;
 }
 .btn{
@@ -156,8 +156,8 @@ font-style: italic;
     display: flex;
     justify-content: center;
     justify-items: center;
-    left: 46rem;
-    top: 32rem;
+    left: 42rem;
+    top: 29rem;
     position: absolute;
 
 }
@@ -175,7 +175,7 @@ font-style: italic;
     background-color: #00000030;
 }
 #cointainer-3{
-    top: 114em;
+    top:104rem;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -243,12 +243,12 @@ font-style: italic;
 
 }
 #cointainer-3 > div > div.grad {
-    height: 100%;
-    width: 1795px;
+    height: 89%;
+    width: 1519px;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
     left: 2px;
-    top: 0px;
+    top: 80px;
 
 }
 /* ---------footer------------ */
@@ -261,7 +261,7 @@ font-style: italic;
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 168rem;
+    top: 153rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -364,7 +364,7 @@ body > footer > div > div{
 #heroContainer > div.hero > div.icon {
     position: relative;
     top: 21rem;
-    left: 35rem;
+    left: 26rem;
     /* padding: 0px 3px; */
     /* margin: 11px; */
     display: flex;
