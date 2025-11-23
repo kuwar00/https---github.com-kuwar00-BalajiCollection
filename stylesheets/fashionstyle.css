@@ -20,7 +20,7 @@ body{
     width: 30px;
     cursor: pointer;
     position: absolute;
-    left: 39rem;
+    left: 40rem;
     border: solid white ;
     background-color: #fff;
     border-radius: 11px;
@@ -163,7 +163,7 @@ font-style: italic;
 }
 .btn-2 a{
    text-decoration: none;
-   left: 5rem ;
+   left: 1rem ;
    top: 9rem;
    position:absolute;
     display: inline-block;
@@ -205,7 +205,7 @@ font-style: italic;
     justify-content: center;
     justify-items: center;
     position: absolute;
-   top: 33rem;
+   top: 29rem;
 
 }
 
@@ -214,8 +214,8 @@ font-style: italic;
     justify-content: center;
     text-align: center;
     display: flex;
-    bottom: 63rem;
-    left: -5rem;
+    bottom: 62rem;
+    left: -13rem;
     align-items: center;
     align-content: center;
 }

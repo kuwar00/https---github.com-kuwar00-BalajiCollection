@@ -21,7 +21,7 @@ body{
     width: 30px;
     cursor: pointer;
     position: absolute;
-    left: 53rem;
+    left: 40rem;
     border: solid white ;
     background-color: #fff;
     border-radius: 11px;
@@ -61,19 +61,18 @@ nav ul li a:hover{
 }
 .grad-wedd{
     height: 913px;
-    width: 1808px;
+    width: 1521px;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.6) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
    
-    top: 2115px;
+    top: 2057px;
 }
 .grad-wedd2{
-    height: 913px;
-    width: 1808px;
+ height: 883px;
+    width: 1521px;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.6) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
-  
-    top: 1255px
+    top: 1124px;
 }
 /* #navbar:hover{
     background-color: #8a2c2c;
@@ -119,7 +118,7 @@ font-style: italic;
 
 #heroContainer1 > div > div.img2 > img{
     height: 100%;
-    width:113rem ;
+    width:95rem ;
     left: 0rem;
     position: absolute;
     top: 16rem;
@@ -230,8 +229,7 @@ nav{
 } */
 
 #WomenContainer2 > div > video {
-    width: 113rem;
-
+    width: 1520px;
     position: absolute;
     top: 72rem;
     z-index: -1;
@@ -312,7 +310,7 @@ nav{
     position: absolute;
     top: 140rem;
     z-index: -1;
-    width: 113rem;
+    width: 95rem;
     }
   
 /* footer  */
@@ -414,8 +412,8 @@ body > footer > div > div{
 
 #weddingProjectIcon {
     position: relative;
-    top: 127rem;
-    left: 106rem;
+    top: 117rem;
+    left: 88rem;
     /* padding: 0px 3px; */
     /* margin: 11px; */
     display: flex;
