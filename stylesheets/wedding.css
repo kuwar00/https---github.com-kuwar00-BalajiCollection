@@ -60,19 +60,18 @@ nav ul li a:hover{
     
 }
 .grad-wedd{
-    height: 913px;
+   height: 831px;
     width: 1521px;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.6) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
-   
-    top: 2057px;
+    top: 1912px;
 }
 .grad-wedd2{
  height: 883px;
     width: 1521px;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.6) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
-    top: 1124px;
+    top: 1028px;
 }
 /* #navbar:hover{
     background-color: #8a2c2c;
@@ -99,22 +98,7 @@ font-style: italic;
     flex-wrap: wrap;
 
 }
-/* .btn{
-    position: absolute;
-    top: 65%;
-    justify-content: center;
-    text-align: center;
-} */
-/* #heroContainer1 > div > img {
-    width: 100vh;
-    height: 100vh;
-    position: absolute;
-    top: 16rem;
-    left: 16rem;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
+
 
 #heroContainer1 > div > div.img2 > img{
     height: 100%;
@@ -150,7 +134,7 @@ nav{
     display: inline-flex;
     justify-content: space-between;
     justify-items: center;
-    left: 38rem;
+    left: 36rem;
     justify-content: center;
     top: 9rem;
     flex-direction: row;
@@ -169,18 +153,8 @@ nav{
     justify-content: center;
     justify-items: center;
     left: 40%;
-    top: 117rem;
+    top: 104rem;
 }
-    
-/* #heroContainer1 > div > div.img3 > img {
-    position: absolute;
-    left: 68rem;
-    top: 40rem;
-    height: 425px;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
 
 #WomenContainer3 > div.WomenBoxTr2 > h2 {
     font-size: 50px;
@@ -195,12 +169,12 @@ nav{
     justify-content: center;
     justify-items: center;
     left: 40%;
-    top: 171rem;
+    top: 154rem;
 }
 
 #heroContainer1 > div > h2 {
-    top: 50rem;
-    left: 43rem;
+   top: 44rem;
+    left: 36rem;
 }
 
 #heroContainer1 > div > div > a {
@@ -217,21 +191,12 @@ nav{
     background-color: yellow;
 }
 
-/* #heroContainer1 > div > div.img4 > img {
-    height: 425px;
-    position: absolute;
-    top: 40rem;
-    left: 87rem;
-    width: 248px;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-} */
+
 
 #WomenContainer2 > div > video {
     width: 1520px;
     position: absolute;
-    top: 72rem;
+    top: 66rem;
     z-index: -1;
 }
 .WomenBoxTr h2{
@@ -273,34 +238,34 @@ nav{
     border-radius: 50px;
     padding: 14px 20px ;
     position: absolute;
-   left: 56rem;
+   left: 48rem;
     top: 24rem;
     background-color: #00000030;
 }
 .btn-2wp a {
-    text-decoration: none;
+  text-decoration: none;
     display: inline-block;
     color: #f5f2f2;
     font-size: 24px;
     border: 2px solid white;
     border-radius: 50px;
-    padding: 14px 20px ;
+    padding: 14px 20px;
     position: absolute;
-    left: 56rem;
-    top: 92rem;
+    left: 48rem;
+    top: 83rem;
     background-color: #00000030;
 }
 .btn-3wp a {
-    text-decoration: none;
+   text-decoration: none;
     display: inline-block;
     color: #f5f2f2;
     font-size: 24px;
     border: 2px solid white;
     border-radius: 50px;
-    padding: 14px 20px ;
+    padding: 14px 20px;
     position: absolute;
-    left: 56rem;
-    top: 98rem;
+    left: 49rem;
+    top: 91rem;
     background-color: #00000030;
 }
 
@@ -308,20 +273,19 @@ nav{
     {
         height: 100%;
     position: absolute;
-    top: 140rem;
+    top: 128rem;
     z-index: -1;
     width: 95rem;
     }
   
 /* footer  */
 .footer{
-    color: var(--secondary-color);
-    background-color:var(--primary-color);
-    
+   color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 2% 0%;
     position: absolute;
     width: 100%;
-    top: 194rem;
+    top: 176rem;
 }
 .foot-container{
     max-width: 1170px;
@@ -412,7 +376,7 @@ body > footer > div > div{
 
 #weddingProjectIcon {
     position: relative;
-    top: 117rem;
+    top: 111rem;
     left: 88rem;
     /* padding: 0px 3px; */
     /* margin: 11px; */
