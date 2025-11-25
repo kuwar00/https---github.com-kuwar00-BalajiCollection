@@ -1,6 +1,7 @@
 
  body{
     background-color: var(--primary-color);
+    overflow-x: hidden;
  }
 :root{
     --primary-color: #fff;
@@ -185,7 +186,7 @@ body > h1 {
 }
 .heritageGrad {
    height: 100%;
-    width: 95rem;
+    width: 1518pxS;
     background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
     position: absolute;
     left: -5px;

@@ -1,23 +1,8 @@
-/* :root{
-    --primary-color: #fff;
-    --secondary-color:#000000;
-}
-.dark{
-    --primary-color: #000;
-    --secondary-color:#ffffff;
-} */
-/* #DarkLightMode {
-    width: 30px;
-    cursor: pointer;
-    position: absolute;
-    left: 53rem;
-    border: solid white ;
-    background-color: #fff;
-    border-radius: 11px;
-} */
+
 
 body{
     background-color:var(--primary-color);
+    overflow-x: hidden;
 }
 
 
@@ -34,36 +19,15 @@ margin: 30px;
 font-style: italic;
 }
 
-/* #heroContainer1 > div > div > a {
-    position: absolute;
-    top: 53rem;
-    left: 54rem;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-size: 24px;
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 14px 20px;
-    background-color: yellow;
-} */
 
-
-/* #heroMContainer1 > div.heroM1 > div.img2 > img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 16rem;
-    z-index: -1;
-} */
 #heroMPContainer1 > div.menBoxmainTr > h2 
 {  
     
     display: inline-block;
     
  position: absolute;
-    top: 56rem;
-    left: 43rem;
+  top: 49rem;
+    left: 42rem;
     font-size: 50px;
     color: #f5f2f2;
   
@@ -115,8 +79,8 @@ font-style: italic;
 #heroMPContainer1 > div.menBoxmainTr > h3 {
     display: inline-flex;
     position: absolute;
-    top: 57rem;
-    left: 47rem;
+    top: 50rem;
+    left: 46rem;
     font-size: 18px;
     color: #f5f2f2;
     text-align: center;
@@ -143,33 +107,34 @@ font-style: italic;
   
 }
 #menCollection{
-    width: 100%;
+  width: 100%;
     height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    top: 66rem;
+    top: 60rem; 
 }
 
 
 #menVideo { 
-    width: 100%;
-    height: 72vh;
+   width: 100%;
+    height: 100%;
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     top: 66rem;
+    align-items: flex-start;
+    align-content: space-around;
 }
 #oneVid {
-    height: 26rem;
-    width: 18rem;
+    height: 24rem;
+    width: 16rem;
 }
 #twoVid {
-    height: 26rem;
+    height: 362px;
 }
 #menVideo > div > video{
     width: 37vh;
@@ -197,11 +162,12 @@ font-style: italic;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    top: 66rem;
+    top: 71rem;
 }
 p{
     font-size: 15pt ;
     text-align: center;
+    color: var(--secondary-color);
 }
 #menvidLastbox {
     position: absolute;
@@ -209,7 +175,7 @@ p{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    top: 165rem;
+    top: 157rem;
     width: 100%;
     align-content: center;
 }
@@ -227,7 +193,7 @@ p{
     justify-content: center;
     justify-items: center;
     left: 40%;
-    top: 33rem;
+    top: 29rem;
 }
 .btn-03mp a
  {
@@ -262,7 +228,7 @@ p{
 }
 #menWearIcon{
     position: relative;
-    top: 22rem;
+    top: 20rem;
     left: -5rem;
     /* padding: 0px 3px; */
     /* margin: 11px; */
@@ -286,7 +252,7 @@ p{
     cursor: pointer;
 }
 #menvidLastbox > div.menBoxTr02 > a {
-    text-decoration: none;
+   text-decoration: none;
     display: inline-block;
     color: #f5f2f2;
     font-size: 24px;
@@ -294,23 +260,24 @@ p{
     border-radius: 50px;
     padding: 14px 20px;
     position: absolute;
-    left: 56rem;
-    top: 41rem;
+    left: 49rem;
+    top: 36rem;
+    
     background-color: #00000030;
 }
 #MeniconForPlayVideo {    
-    height: 20px;
+  height: 20px;
     cursor: pointer;
     display: flex;
     position: relative;
-    top: 55rem;
-    left: 24rem;
+    top: 59rem;
+    left: 19rem;
 }
 #MeniconForPlayVideo2 {
-    height: 20px;
+  height: 20px;
     cursor: pointer;
     display: flex;
     position: relative;
-    top: 56rem;
-    left: 51rem;
+    top: 59rem;
+    left: 41rem;
 }
